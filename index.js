@@ -1,6 +1,6 @@
 const { createFilter } = require("@rollup/pluginutils");
 const {readFileSync} = require("fs");
-import { extname } from 'path';
+const { extname }  = require('path');
 
 const mimeTypes = {
 	'.jpg':  'image/jpeg',
