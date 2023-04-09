@@ -3,11 +3,13 @@ const {readFileSync} = require("fs");
 const { extname }  = require('path');
 
 const mimeTypes = {
+	
 	'.jpg':  'image/jpeg',
 	'.jpeg': 'image/jpeg',
 	'.png':  'image/png',
-	'.gif':  'image/gif'
-	// '.svg':  'image/svg+xml',
+	'.gif':  'image/gif',
+	'.webp':  'image/webp',
+	'.svg':  'image/svg+xml',
 };
 
 
